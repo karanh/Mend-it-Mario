@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B04B2C5A-56A1-41E9-9CB5-EB533199069C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mend_It_Mario</RootNamespace>
+    <AssemblyName>Mend-It Mario</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bird.cs" />
+    <Compile Include="Fireball.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Bowser.cs" />
+    <Compile Include="GameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameForm.Designer.cs">
+      <DependentUpon>GameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighScoreForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScoreForm.Designer.cs">
+      <DependentUpon>HighScoreForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LevelEditor.cs" />
+    <Compile Include="LevelEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelEditorForm.Designer.cs">
+      <DependentUpon>LevelEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Life.cs" />
+    <Compile Include="Mario.cs" />
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mushroom.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GameForm.resx">
+      <DependentUpon>GameForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScoreForm.resx">
+      <DependentUpon>HighScoreForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelEditorForm.resx">
+      <DependentUpon>LevelEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Wall.cs" />
+    <Compile Include="Window.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angry bowser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big bowser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser breathing fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser climbing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser flying out of canon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser full down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser half down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser in canon crying.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser in canon up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser left foot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser right foot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser side.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser squished.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowser standing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green bird 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green bird 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green bird final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\little red bird 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\little red bird 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\little red bird final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red bird 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red bird 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red bird 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red bird 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red bird final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow bird 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow bird fast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow bird final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dead Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Left 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Left 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Left 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Right 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Right 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Climb Right 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Fall Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Fall Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Falling 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Falling 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Falling 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Falling 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Falling 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Left 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Left 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Left 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Left 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Right 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Right 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Right 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Right 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Straight 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Straight 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty canon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broken window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixed window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\building.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireball_pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green_mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obstacle_wall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,24 @@
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.GameForm.resources
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.HighScoreForm.resources
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.LevelEditorForm.resources
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.MenuForm.resources
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.Properties.Resources.resources
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.csproj.GenerateResource.Cache
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\bin\Release\Mend-It Mario.exe
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\bin\Release\Mend-It Mario.pdb
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.exe
+C:\Users\Junaid\Desktop\final\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.pdb
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\bin\Release\Mend-It Mario.exe
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\bin\Release\Mend-It Mario.pdb
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\ResolveAssemblyReference.cache
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.GameForm.resources
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.HighScoreForm.resources
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.LevelEditorForm.resources
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.MenuForm.resources
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend_It_Mario.Properties.Resources.resources
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.csproj.GenerateResource.Cache
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.exe
+C:\Users\KaranH\Downloads\Everything Except Level Editor\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.pdb
+\\psf\Home\Desktop\DONE\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.exe
+\\psf\Home\Desktop\DONE\Everything Except Level Editor\Mend-It Mario\Mend-It Mario\obj\Release\Mend-It Mario.pdb

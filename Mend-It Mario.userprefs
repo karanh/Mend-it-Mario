@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Mend-It Mario\Mend-It Mario.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mend-It Mario\Mario.cs">
+    <Files>
+      <File FileName="Mend-It Mario\Bird.cs" Line="31" Column="4" />
+      <File FileName="Mend-It Mario\Mario.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
